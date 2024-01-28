@@ -1,0 +1,22 @@
+{
+  "name": "react-native-custom",
+  "version": "1.0.0",
+  "description": "A Custom Library have hello function",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1410avi/react-native-custom.git"
+  },
+  "keywords": [],
+  "author": "Avinash Soni <avinash.soni@grayquest.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": ["lib/**/*"]
+}
